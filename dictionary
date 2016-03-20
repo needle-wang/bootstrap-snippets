@@ -125,7 +125,7 @@ dropdownmenuright
 em
 embedresponsive
 fieldsetdisabled
-form
+form-b
 formcontrolstatic
 formgrouphaserror
 formgrouphasfeedback
@@ -154,7 +154,6 @@ hiddenmd
 hiddenprint
 hiddensm
 hiddenxs
-html5
 imgcircle
 imgresponsive
 imgrounded
