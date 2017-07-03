@@ -10,14 +10,14 @@ snippet bootstrapcdn Bootstrap
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-snippet basictemplate Bootstrap
+snippet bootstrap_basic Bootstrap
 	<!DOCTYPE html>
 	<html lang="zh-CN">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Bootstrap 101 Template</title>
+	<title>${1:Bootstrap 101 Template}</title>
 	<!-- Bootstrap -->
 	<link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/static/css/customed.css" rel="stylesheet">
@@ -31,14 +31,15 @@ snippet basictemplate Bootstrap
 	</head>
 	<body style="background-color: #FAF9DE;">
 	  <h1>Hello, world!</h1>
-	  ${1:"保留此模板! 不要动它, 要用到时复制它即可."}
+	  ${2:"保留此模板! 不要动它, 要用到时复制它即可."}
+	  ${0}
 	
-	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	  <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-	  <!-- Include all compiled plugins (below), or include individual files as needed -->
-	  <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	  <!-- customed.js -->
-	  <script src="/static/js/customed.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<!-- customed.js -->
+	<script src="/static/js/customed.js"></script>
 	</body>
 	</html>
 snippet viewport Bootstrap
